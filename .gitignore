@@ -1,0 +1,73 @@
+# Python Virtual Environments
+.venv/
+venv/
+env/
+ENV/
+
+# Python Cache & Bytecode
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.pytest_cache/
+.coverage
+htmlcov/
+
+# CLIP IT Media, Storage & Model Cache (generated/downloaded at runtime)
+data/
+uploads/
+clips/
+models/
+*.mp4
+*.mkv
+*.webm
+*.wav
+*.mp3
+*.ts
+*.ass
+*.png
+*.jpg
+*.jpeg
+*.db
+*.db-wal
+*.db-shm
+
+# Duplicate / Backup Folders & Stray Archives
+PeakCut-src/
+*.zip
+*.tar.gz
+*.pdf
+*resume*
+*Resume*
+Akash_*
+
+# Legacy Unrelated Prototype Files
+app.py
+index.html
+package.json
+package-lock.json
+vite.config.js
+src/
+run_backend.bat
+run_frontend.bat
+start_all.bat
+
+# Node & Build Artifacts
+node_modules/
+dist/
+.cache/
+
+# OS & IDE Files
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# Credentials & Environment Variables
+.env
+.env.*
+*credentials*.json
+client_secrets*.json
+token*.json
